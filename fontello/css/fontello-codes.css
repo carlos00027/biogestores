@@ -1,0 +1,5 @@
+
+.icon-home:before { content: '\2302'; } /* '⌂' */
+.icon-mail:before { content: '\2709'; } /* '✉' */
+.icon-group:before { content: '\e091'; } /* '' */
+.icon-basket:before { content: '\e73d'; } /* '' */

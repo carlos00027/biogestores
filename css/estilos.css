@@ -1,7 +1,77 @@
 body{
     font-size: 17px;
     font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 h1,h2,h3,h4,h5,h6{
     font-family: 'Roboto', sans-serif;
+}
+.contenedor-padre{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contenedor-fila{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedor-50{
+    width: 50%;
+    /* background: red; */
+}
+.contenedor-100{
+    width: 100%;
+    /* background: red; */
+}
+.centrar{
+    text-align: center;
+}
+.imagen-100{
+    width: 100%;
+    min-height: 375px;
+    max-height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.menu  ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0;
+    background: #01401C;
+    box-shadow: 0 0 30px rgba(0,0,0,1);
+}
+.menu ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.menu ul li a{
+    transition: 450ms;
+    color: #D9C7A7;
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 50%;
+}
+.menu ul li a:hover{
+    background: #D9C7A7;
+    color: #01401C;
+    padding: 12px;
+    border-radius: 8px;
+}
+.menu-activo{
+    background: #D9C7A7;
+    color: #01401C !important;
+    border-radius: 8px !important;
+    text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
 }

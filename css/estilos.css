@@ -113,3 +113,56 @@ h1,h2,h3,h4,h5,h6{
     
     
 }
+.barraespecificaciones{
+    width: 100%;
+    margin-top: 15px;
+
+}
+.navespecificaciones{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background: #01401C;
+    box-shadow: 0 0 30px rgba(0,0,0,1);
+    color: ivory;
+} 
+
+.materiales{
+    font-weight: bold;
+    text-align: center;
+    padding: 5px 5px; 
+}
+.titconversiones{
+        align-items: center;
+}
+.diseñotabalespecificaciones{
+    margin-top: 15px;
+    text-align: center;
+    border: 6px solid rgb(105, 189, 112);
+    border-radius: 5px;
+    display: flex;
+    width: 820px;
+    float: left;
+    
+}
+.imgbiomasa{
+    display: flex;
+    margin-top: 15px;
+    padding: 0px 50px;
+    padding-right: 0px;
+    float:left;
+    margin-bottom: 50px;
+}
+.precios{
+    width: 100%;
+    margin-top: 15px;
+}
+.tablaprecios{
+    margin-top: 15px;
+    text-align: center;
+    border: 6px solid rgb(105, 189, 112);
+    border-radius: 5px;
+    width: 450px;
+    align-items: center;
+    margin-left: 450px;
+}

@@ -76,17 +76,25 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 8px !important;
     text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
 }
+.saltos{
+   border-radius: 200px /8px;
+   height: 5px;
+    background-color: rgb(55, 163, 4);
+    width: 100%;
+}
 .textleft{
     text-align: justify;
     width: 300px;
-    border: 1px solid silver;
     padding: 20px 10px;
+    font-size: 20px;
 }
 .textright{
     text-align: justify;
     width: 300px;
-    border: 1px solid silver;
+ 
     padding: 20px 10px;
+    font-size: 20px;
+    
 }
 .dv11{
     margin-left: 30px;
@@ -100,7 +108,7 @@ h1,h2,h3,h4,h5,h6{
     display: flex;
     margin: 5px 5px;
     padding: 60px 0px;
-    border: 1px solid silver;
+
     display:table-cell;
     vertical-align:middle;
     align-items: center

@@ -223,3 +223,36 @@ h1,h2,h3,h4,h5,h6{
     margin-top: 33px;
     margin-left: 85px;
 }
+
+
+.formulario-contactenos{
+    width: 50%;
+}
+.formulario-contactenos label{
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.formulario-contactenos input,textarea{
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 7px;
+    border-radius: 6px;
+}
+.formulario-contactenos .grupo{
+    margin: 15px;
+}
+
+.formulario-contactenos .btn-enviar{
+    width: 100%;
+    background: #01401C;
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition-duration: 400ms;
+    cursor: pointer;
+}
+.formulario-contactenos .btn-enviar:hover{
+    background: #056923;
+}

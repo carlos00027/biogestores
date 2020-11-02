@@ -40,24 +40,38 @@
 	</nav>
 
 	<div class="contenedor-padre">
-		<div class="contenedor-fila">
-			<div class="contenedor-100">
+		<div class="contenedor-fila" style="align-items: center;">
+			<div style="width: 50%;">
 				<img src="img/biogestor-1.jpg" class="imagen-100" alt="">
 			</div>
-		</div>
-	</div>
-	<div class="contenedor-fila">
-		<div class="contenedor-50 centrar">
-			<h1>Contáctenos Carlos</h1>
-			<p>
-				Un biodigestor es un sistema mediante
-				el cual se genera un ambiente adecuado
-				para que la materia orgánica se descomponga con ausencia de oxígeno. A este
-				fenómeno se le llama «digestión anaeróbica». Este sistema funciona de una manera
-				muy similar al estómago de una persona
-				o un animal, ya que dentro del biodigestor encontramos que viven unas bacterias
-				que descomponen el estiércol y otros residuos orgánicos, que se convierten en biogás y biofertilizante
-			</p>
+			<div style="width: 50%; height: 100%; display: flex; align-items: center;">
+				<form class="formulario-contactenos">
+					<div class="grupo">
+						<h1>Formulario de contacto</h1>
+					</div>
+					<div class="grupo">
+						<label for="nombres">Nombres y apellidos</label>
+						<input id="nombres" type="text" placeholder="Tus nombres y apellidos">
+					</div>
+					<div class="grupo">
+						<label for="telefono">Teléfono</label>
+						<input id="telefono" type="tel" placeholder="Ej. 3101234567">
+					</div>
+					<div class="grupo">
+						<label for="correo">Correo electrónico</label>
+						<input id="correo" type="email" placeholder="Ej. correo@dominio.com">
+					</div>
+					<div class="grupo">
+						<label for="mensaje">Mensaje</label>
+						<textarea id="mensaje" rows="5" placeholder="Ej. tu mensaje aqui"></textarea>
+					</div>
+					<div class="grupo">
+						<button type="button" class="btn-enviar">
+							Enviar mensaje
+						</button>
+					</div>
+				</form>
+			</div>
 		</div>
 	</div>
 	<script src="js/principal.js"></script>

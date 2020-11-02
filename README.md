@@ -1,7 +1,7 @@
 # biogestores
 
-### integrantes
+### integrantes del curso
 
-carlos suescun
-carlos sanchez 
-johan pardo
+1. carlos suescun
+2. carlos sanchez 
+3. johan pardo

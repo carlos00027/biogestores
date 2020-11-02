@@ -7,6 +7,7 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Roboto', sans-serif;
 }
+
 .contenedor-padre{
     width: 100%;
     display: flex;
@@ -76,10 +77,18 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 8px !important;
     text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
 }
+.decorativo{
+    width: 100%;
+    border: solid #01401C 5px;
+}
+.imgdecorativo{
+    width: 25%;
+    height: 100px;
+    background-size: 340px 120px;
+}
 .saltos{
-   border-radius: 200px /8px;
    height: 5px;
-    background-color: rgb(55, 163, 4);
+    background-color: #01401C;
     width: 100%;
 }
 .textleft{

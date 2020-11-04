@@ -7,6 +7,7 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-family: 'Roboto', sans-serif;
 }
+
 .contenedor-padre{
     width: 100%;
     display: flex;
@@ -76,10 +77,18 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 8px !important;
     text-shadow: 1px 1px 0px rgba(0,0,0,0.2);
 }
+.decorativo{
+    width: 100%;
+    border: solid #01401C 5px;
+}
+.imgdecorativo{
+    width: 25%;
+    height: 100px;
+    background-size: 340px 120px;
+}
 .saltos{
-   border-radius: 200px /8px;
    height: 5px;
-    background-color: rgb(55, 163, 4);
+    background-color: #01401C;
     width: 100%;
 }
 .textleft{
@@ -255,4 +264,74 @@ h1,h2,h3,h4,h5,h6{
 }
 .formulario-contactenos .btn-enviar:hover{
     background: #056923;
+}
+/**Nosotros**/
+.mision{
+    color:black;
+    width: 50%;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 40px;
+    float: left;
+
+}
+.misiontxt{
+    color:rgb(9, 37, 8);
+    width: 80%;
+    text-align: justify;
+    margin-left: 50px;
+}
+.vision{
+    color:black;
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 40px;
+    float: left;
+}
+.visiontxt{
+    color:rgb(9, 37, 8);
+    width: 500px;
+    text-align: justify;
+    margin-left: 15px;
+}
+.perfilesprof{
+    color:rgb(9, 37, 8);
+    width: 70%;
+    text-align: justify;
+    margin-left: 80px;
+}
+.parrafosperfiles{
+    color:black;
+    width: 33%;
+    font-size: 20px;
+    float: left;
+}
+
+.imgprofiles1{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    float: left;
+    margin-left: 80px;
+    border: 10px solid #05771d;
+}
+.imgprofiles2{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    float: left;
+    margin-left: 120px;
+    border: 10px solid #05771d;
+}
+.imgprofiles3{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    float: left;
+    margin-left: 130px;
+    border: 10px solid #05771d;
+}
+.profiles{
+    align-items: center;
 }
